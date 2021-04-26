@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WORKSHOP HTML</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav calss="multi">
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Work">Work</a>
+          <a href="#Resume">Resume</a>
+          <a href="#Contact">Contact</a> 
+      </nav>
+    </header>
+    <main>
+      <div class="Home">
+        <h3>This is a home</h3>
+      </div>
+      <section id="About">
+        <h1>About</h1>
+        <p>
+          Je m'appelle Allegui Emna, titulaire d'un diplome de master en Réseaux Informatiques et
+          télécommunication d'Enet'Com Sfax. Maintenant, j'ai reçu une formation complète
+          de développeur full stack JS au centre de formation GoMycode. Je suis passionnée
+          par le développement web et je suis très contente de l'opportunité
+          d'intégrer GoMycode.
+        </p>
+        <div class="image">
+            <img src="staff/photo.jpg" alt="voici une image" id="image"/>
+        </div>
+        
+      </section>
+      <section id="Work">
+        <h1>Work</h1>
+        <p>Experiences professionnelles</p>
+        <ul>
+          <li>
+            <strong><em>Conseiller voyage <br />Avril 2017 to November 2019</strong></em>
+            <ul>
+              <li>Acceuil client physique telephone et mail</li>
+              <li>Assurer le suivi et l'archivage de dossier</li>
+              <li>traiter les reclamations avec diplomatie</li>
+              <li>Reserver les prestations selon les demandes de clients</li>
+            </ul>
+            <div>
+               <strong><em><h3>
+                <a href="#tunisie" src="staff/Guide de voyage Tunisie les choses à voir absolument.mp4">voici un vidéo qui décrit notre belle tunisie</a>
+                </em></strong> </h3>
+            </div>
+            <video controls>
+              <source
+                src="staff/Guide de voyage Tunisie les choses à voir absolument.mp4"
+                type="video/mp4"
+              />
+              <source
+                src="staff/►Guide de voyage Tunisie ☀️les choses à voir absolument.mp4"
+                type="video/ogg"
+              />
+              your browser does not support this video
+            </video>
+            <!--<iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/16xmLu13nJ8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>-->
+          </li>
+          <strong><em><li>Stage Steg <br />juillet 2011</li></strong></em>
+          <strong><em><li>stage Tunisie telecom <br />juin 2010 to juillet 2010</li></em></strong>
+        </ul>
+      </section>
+      <section id="Resume">
+        <h1>Resume</h1>
+        <strong><em><p>Etudes</p></strong></em>
+        <table border="1" cols="4" rows="4">
+          <tr>
+            <th>Diplome</th>
+            <th>Specialte</th>
+            <th>Annee d obtention</th>
+            <th>Ecole</th>
+          </tr>
+          <tr>
+            <td>Baccalaureat</td>
+            <td>Sciences experimentales</td>
+            <td>2009</td>
+            <td>Lycee mixte sidi bouzid</td>
+          </tr>
+          <tr>
+            <td>Licence</td>
+            <td>Reseaux informatiques et telecommunications</td>
+            <td>2009-2012</td>
+            <td>Ecole nationale delectronique et telecommunications</td>
+          </tr>
+          <tr>
+            <td>Mastere professionelle</td>
+            <td>Reseaux informatiques et telecommunications</td>
+            <td>2012-2014</td>
+            <td>Ecole nationale d electronique et telecommunications</td>
+          </tr>
+          <tr>
+            <td>Certificat</td>
+            <td>CCNA</td>
+            <td>2014</td>
+            <td>Ecole nationale d electronique et telecommunications</td>
+          </tr>
+        </table>
+        <strong><em><p>Competences personelles</p></em></strong>
+        <ul>
+          <li>Capacite a resoudre les problemes</li>
+          <li>inteligence emotionnelle</li>
+          <li>audacite et creativite</li>
+          <li>sens de communication</li>
+          <li>sens de service et flexibilite</li>
+        </ul>
+      </section>
+      <section id="Contact">
+        <h1>Contact</h1>
+        <div>
+        <label for="phone" >Phone</label>
+        <input type="number" placeholder="97865432">
+        </div>
+        <div>
+        <label for="email" >Email</label>
+        <input type="email" placeholder="votre@email.fr">  
+        </div>
+        <div>
+            <label for="adresse" >Adresse</label>
+            <input type="adresse" placeholder="7 rue des fleurs 37000 Tours ">
+        </div>
+      </section>
+    </main>
+    <footer> copy;CopyRight go my code 2021</footer>
+  </body>
+</html>
